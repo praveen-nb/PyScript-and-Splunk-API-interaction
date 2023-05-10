@@ -8,7 +8,17 @@ splunk_url = "https://<your_splunk_instance>:8089/services/search/jobs/export"
 # Splunk search query
 splunk_query = "search index=main | head 10"
 
-# Splunk API parameters
+# Splunk API parameters 1
+splunk_params = {
+    "search": splunk_query,
+    "output_mode": "json"
+    
+ # Splunk API parameters 2
+splunk_params = {
+    "search": splunk_query,
+    "output_mode": "json"
+    
+ # Splunk API parameters 3
 splunk_params = {
     "search": splunk_query,
     "output_mode": "json"
