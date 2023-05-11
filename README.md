@@ -17,11 +17,6 @@ splunk_params = {
 splunk_params = {
     "search": splunk_query,
     "output_mode": "json"
-    
- # Splunk API parameters 3
-splunk_params = {
-    "search": splunk_query,
-    "output_mode": "json"
 }
 
 # Splunk API authentication
